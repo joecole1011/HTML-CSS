@@ -31,3 +31,11 @@ git push -u origin main
 
 
 git branch -M main
+
+==========
+VSCode
+ยกบรรทัดขึ้นทั้งแถว
+Ctrl+Shift+K
+
+จัด Format
+Alt+Shift+F
