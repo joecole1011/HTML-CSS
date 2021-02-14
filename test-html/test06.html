@@ -4,10 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Table test06</title>
+    <style>
+        table{
+               font-size: 20px;
+               color: brown;
+               width: 400px;
+               border-collapse: collapse;
+               /* border-spacing: 3px ; */
+        }
+        th {
+                color: crimson;
+                text-align: left;
+                background-color: darkgray;
+        }
+        td {
+                border: 1px solid darkblue;             
+                
+        }    
+        td,th{
+                border: 1px solid lime;
+                padding: 3px ;
+
+        }
+    </style>
   </head>
   <body>
     <h2>Employee table</h2>
-    <table style="border: 1px solid blue ; width: 40%;">
+    <table id="t1">
+        <tr>
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Harry</td>
+            <td>Potter</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Van</td>
+            <td>Halen</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Jackson</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td colspan="2">เฉลี่ยอายุ</td>
+            <!-- <td rowcolspan="2">เฉลี่ยอายุ</td> -->
+            <td>29</td>
+        </tr>        
+    </table>
+    <br>    
+    <!-- <table style="border: 1px solid blue ; width: 40%;">
         <tr style="background-color: bisque;">
             <th style="border: 1px solid blue ;">Name</th>
             <th style="border: 1px solid blue ;">Division</th>
@@ -28,7 +79,6 @@
             <td>Jackson</td>
             <td>32</td>
         </tr>
-    </table>
-
+    </table> -->
   </body>
 </html>
