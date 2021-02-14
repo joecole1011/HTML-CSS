@@ -68,3 +68,7 @@ Ctrl+Shift+K
 
 จัด Format
 Alt+Shift+F
+
+จัดแท็บแถว
+Ctrl+[ 
+Ctrl+]
