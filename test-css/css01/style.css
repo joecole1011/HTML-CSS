@@ -12,8 +12,8 @@
         .fw900{
             font-weight: 900;
         }
-        .ulheader{
-            font-size: 400px;
+        .ulheader {
+            font-size: 40px;
             border: 1px dashed blueviolet;
         }
         /* .roboto สร้าง class */
@@ -21,9 +21,9 @@
             background-color: burlywood;
             padding: 10px;
             text-align: center;
-            font-size: 35px;
+            /* font-size: 35px; */
             /* font-family: 'Roboto',sans-serif; */
-            font-size: 40px;
+            /* font-size: 40px; */
             /* font-weight: ; */
         }
         nav{
