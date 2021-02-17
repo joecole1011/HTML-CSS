@@ -57,16 +57,32 @@
         #profile{
             background-color: magenta;
             height: 100%;
+            padding-top: 20px; ;
         }
         #contact{
             background-color: lightpink;
             height: 100%;
-        }        
+            padding-top: 20px; 
+        }   
+        #skill{
+            background-color: greenyellow;
+            height: 100%;
+            padding-top: 20px; 
+        }   
+          /* input[type=text] ต้องติดกัน */
+        input[type=text]{
+                padding: 12px 24px;
+                background-image: url('../../resume/pic/HTML5_logo_small.png'); 
+                background-repeat: no-repeat;
+                background-position: 5px;
+                /* transition: width 0.4s ease-in-out; */
+        }
         footer{
             clear: both;
             background-color: lightseagreen;
             height: 70px;
             font-size: 12px;
+            
         }
         footer p{
             padding: 10px ;
