@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="th">
+
+    <!-- เว็บ Responsive -->
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;500&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">   
-    <!-- <script src="style.css"></script> -->
     <title>Akawit Nasoke [CTF020225]</title>    
     <style>
             /* ทบทวนความรู้ */
@@ -44,7 +46,7 @@
             margin-top: 2.5%;
         }
       
-        header{         
+        header{
             padding: 10px;
             text-align: center;
         }
@@ -98,6 +100,7 @@
         }
         #guestbook{
             overflow: scroll;
+            
         }
         #guestbook form{            
             color: darkslateblue;
@@ -164,16 +167,18 @@
         } 
 
         input[type=text] {
+            
             padding: 6px 15px;
-            box-sizing: content-box;
+            box-sizing: border-box;
             border: 2rm  ;
             border-radius: 5px;
         }  
 
         textarea{
-            padding: 6px 15px;
+            padding: 6px 10px;
             border: 2rm  ;
             border-radius: 5px;
+            resize: vertical;
         }
 
         input[type=submit] {
@@ -184,21 +189,12 @@
             border: none;
             border-radius: 4px;
             cursor: grab;
+            resize: vertical;
         }
 
         input[type=submit]:hover {
             background-color: #c9b60d;
-        }
-
-        /* @media only screen and (max-width:620px) {
-          
-                .btn {
-                width:100%;
-            }
-        } */
-
-
-
+        }       
         @media screen and (max-width: 1345px) {
             body {
                 margin: 0;
@@ -211,10 +207,10 @@
                 width: 100%;
             }
         }
-        @media screen and (max-width: 768px) {
-            body {
-                margin: 0;
-            } 
+        @media only screen and (max-width: 230px) {
+            #guestbook {
+                font-size: 5px;
+            }                    
         }
     </style>
 </head>
