@@ -3,13 +3,14 @@
 <head>
     <!-- เว็บไม่ Responsive ย้ำ!! ไม่ Responsive!!! -->
     <meta charset="UTF-8">   
-    <title>Akawit Nasoke </title>    
+    <title>Akawit Nasoke [CTF020225] </title>    
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,900;1,100&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
         body{
-            background-color: tomato;
-            margin-left: 10%;
-            margin-right: 10%;
+            background-color: lightsteelblue;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2.5%;
         }
         .roboto{ 
             font-family: 'Roboto',sans-serif;
@@ -22,11 +23,13 @@
         }
         .ulheader {
             font-size: 40px;
-            border: 1px dashed blueviolet;
+            border-style: solid;
+            border-color: darksalmon;
         }
         /* .roboto สร้าง class */
         header{
-            background-color: burlywood;
+            /* background-color: burlywood; */
+            background-image: url();
             padding: 10px;
             text-align: center;
             /* font-size: 35px; */
@@ -37,20 +40,14 @@
         nav{
             float: left;
             background-color: lightgreen;
-            width: 25%;
+            width: 12.4%;
             height: 400px;
             
-        }
-        nav ul{
-            /* list-style-type: none; */
-             /* padding-left: 5px ; */
-            list-style-image: url(../../resume/pic/HTML5_logo_small.png);
-            padding-top: 15px;
-        }
+        }  
         main{
             float: left;
-            background-color: coral;
-            width: 75%;
+            background-color:peachpuff;
+            width: 87.6%;
             height: 400px;
             overflow: hidden;
             scroll-behavior: smooth;
@@ -58,62 +55,78 @@
             line-height: 1.5em; 
         }
         #home{
-            background-color: lightskyblue;
+            /* background-color: lightskyblue; */
+            /* background-image: url('https://cdn.pixabay.com/photo/2021/02/08/22/30/wheat-5996781__340.jpg'); */
             height: 100%;
             padding-top: 20px; 
         }
         #profile{
-            background-color: magenta;
+            /* background-color: magenta; */
             height: 100%;
             padding-top: 20px; ;
         }
         #contact{
-            background-color: lightpink;
+            /* background-color: lightpink; */
             height: 100%;
             padding-top: 20px; 
         }   
         #skill{
-            background-color: greenyellow;
+            /* background-color: greenyellow; */
             height: 100%;
             padding-top: 20px; 
-        }   
-          /* input[type=text] ต้องติดกัน */
-        input[type=text]{
-                padding: 12px 24px;
-                background-image: url('../../resume/pic/HTML5_logo_small.png'); 
-                background-repeat: no-repeat;
-                background-position: 5px;
-                /* transition: width 0.4s ease-in-out; */
-        }
+        }  
         footer{
             clear: both;
             background-color: lightseagreen;
             height: 70px;
-            font-size: 12px;
-            
+            font-size: 12px;            
         }
         footer p{
             padding: 10px ;
         }  
+        .btn .button{
+            background-color: LawnGreen; 
+            border: 1px solid YellowGreen;
+            color: rgb(7, 10, 241);
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            cursor: pointer;
+            width: 150px;
+            display: block;        
+            border-radius: 12px;
+            box-shadow: 0 3px #999;
+        
+        }
+        .btn .button:not(:last-child) {
+            border-bottom: none; /* Prevent double borders */
+        }
+        .btn .button:hover {
+        /* background-color: #3e8e41; */
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);   
+        }     
+
     </style>
 </head>
 <body>
     <!-- เรียกใช้ class roboto และ ulheader  --> 
     <header class="roboto ulheader">
-        <h2>Header</h2>
+        <h3>Kimzun</h3>
     </header>
     <!-- เรียกใช้ class roboto  และ fw900 -->
     <nav class="kanit fw900">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#profile">profile</a></li>
-            <li><a href="#contact">contact</a></li>
-            <li><a href="#skill">skill</a></li>
-        </ul>
+        <div class="btn">
+            <button class="button"><a href="#home">Home</a></button>
+            <button class="button"><a href="#profile">Profile</a></button>
+            <button class="button"><a href="#contact">Contact</a></button>
+            <button class="button"><a href="#skill">Skill</a></button>
+        </div>
     </nav>
     <main class="kanit"> 
         <div id="home">
-            <h2>Home</h2>
+            <h2> <img src=" " alt=" ">Home</h2>
             <p>กีวีมลภาวะคอร์ป โฮปกาญจนาภิเษกไบเบิลมลภาวะ เลคเชอร์ซีเรียส แดนซ์ ดีพาร์ตเมนต์วานิลาโฮสเตสล้มเหลวโต๋เต๋ โพลล์ แคมปัสไคลแม็กซ์ จิตพิสัยปาสคาลฮัลโลวีนเซลส์แมนฮิ โฟล์คคอร์ป รีสอร์ท ก๋ากั่นบึ้มคอนแท็คล็อบบี้ เกย์โปสเตอร์ชนะเลิศ พรีเซ็นเตอร์ก๋ากั่นไฟต์อีโรติกเบลอ เซอร์ไพรส์ปูอัดตังค์ถ่ายทำเคลื่อนย้าย พรีเมียมกัมมันตะภควัมบดี เป่ายิงฉุบออสซี่ซีอีโอแฟลชบ๊วย</p>
         </div>
         <div id="profile">
