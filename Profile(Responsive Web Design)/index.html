@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-    <!-- เว็บไม่ Responsive!!!  -->
-    
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;500&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">   
+    <!-- <script src="style.css"></script> -->
     <title>Akawit Nasoke [CTF020225]</title>    
     <style>
             /* ทบทวนความรู้ */
@@ -73,10 +73,10 @@
             font-size: 16px; 
             font-style: inherit;  
             text-align: center;
-            padding: 20px ;
+            padding: 16px ;
             text-shadow: 2px 2px 2px #999;   
-        }    
-        
+        }
+
         #home{
             background-color: lightskyblue;            
             height: 100%;
@@ -188,6 +188,33 @@
 
         input[type=submit]:hover {
             background-color: #c9b60d;
+        }
+
+        /* @media only screen and (max-width:620px) {
+          
+                .btn {
+                width:100%;
+            }
+        } */
+
+
+
+        @media screen and (max-width: 1345px) {
+            body {
+                margin: 0;
+            }
+            nav{
+                width: 100%;
+                height: auto;
+            }
+            main{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            body {
+                margin: 0;
+            } 
         }
     </style>
 </head>
