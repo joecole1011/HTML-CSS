@@ -67,6 +67,7 @@
             scroll-behavior: smooth;            
             line-height: 1.5em; 
         }
+        
         footer{
             clear: both;
             background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);            
@@ -87,36 +88,49 @@
             padding-top: 20px; 
             padding-left: 10px;
         }
-
-        #profile{
-            /* background-color: magenta; */
+        #skill, #profile{
             height: 100%;
-            padding-top: 20px; ;
+            padding-top: 20px; 
             padding-left: 10px;
+            color: crimson;
+            text-shadow: 2px 2px 2px #999; 
         }
-
+        
         #contact{
-            /* background-color: lightpink; */
+            background-color: lightskyblue; 
             height: 100%;
             padding-top: 20px; 
             padding-left: 10px;
         } 
        
-
-        #skill{
-            /* background-color: greenyellow; */
-            height: 100%;
-            padding-top: 20px; 
-            padding-left: 10px;
-        }  
-        #proFile{
-            
-           
-
+        table {
+            border-collapse: collapse;
+            width: 30%;
         }
 
+        th {
+            text-align: center;
+            padding: 8px;
+            border-bottom: 3px solid #ddd;
+        }
 
+        tr {
+            text-align: left;
+            background-color: aquamarine;
+        }
 
+        tr:nth-child(even){            
+            background-color: #f2f2f2
+        }            
+        
+        th {
+            background-color: coral;
+            color: white;
+            }
+        td img{
+
+            width: 1.5rem
+        }
         .btn .button{
             background-color: LawnGreen; 
             border: 1px solid YellowGreen;
@@ -163,6 +177,7 @@
         </div>
         <div id="profile">
             <h2 >Profile</h2>
+            <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80" width="80px">
             <p id="proFile">ชื่อ-สกุล: เอกวิทย์ นาโสก <br>
                 ชื่อเล่น: คิม <br>
                 วัน-เดือน-ปีเกิด : 10 มีนาคม 2530 <br>
@@ -171,10 +186,34 @@
                 ที่อยู่ปัจุบัน : นนทบุรี <br>
                 งานอดิเรก : อ่านหนังสือ ดูหนัง ฟังเพลง ท่องเที่ยว ถ่ายรูป <br>
                 อาหารที่ชอบ : อาหารญี่ปุ่นทุกชนิด </p>
+                
         </div>
         <div id="contact">
             <h2>Contact</h2>
-            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eos non deleniti odio animi ullam beatae explicabo, perspiciatis quo ipsum distinctio nostrum aspernatur ratione velit amet laboriosam laborum! Fugit voluptate accusantium molestiae eum tenetur praesentium nostrum fuga natus. Vel repellendus, facilis ullam officia dicta ex quis libero soluta doloribus ut.</p>
+            <p ><table>
+                <tr>
+                    <th>social media</th>
+                    <th>User</th>                    
+                </tr>
+                <tr>
+                    <td><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram"> Instagram</td>
+                    <td>akawit_7</td>
+                    
+                </tr>
+                <tr>
+                    <td><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="facebook"> Facebook</td>
+                    <td>akawit7</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-512.png" alt="youtube"> Youtube</td>
+                    <td>akawit7</td>
+                </tr>
+                    <tr>
+                    <td><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="twitter"> Twitter</td>
+                    <td>akawit_7</td>
+                </tr>
+            </table>
+            </p>
         </div>
         <div id="skill">
             <h2>Skill</h2>
