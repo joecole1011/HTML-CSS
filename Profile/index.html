@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <!-- เว็บไม่ Responsive ย้ำ!! ไม่ Responsive!!! -->
-    <meta charset="UTF-8">   
+    <!-- เว็บไม่ Responsive ย้ำ!! ไม่ Responsive!! เข้าใจนะ  -->
+    
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;500&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">   
     <title>Akawit Nasoke [CTF020225] </title>    
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,900;1,100&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
+            /* ทบทวนความรู้ */
+
+            /* .roboto เรียก class */
+            /* #profile เรียก id */
+            /* header  เรียก tag โดยตรง */    
+
+            /* โจทก์ให้ส่งไฟล์แค่ .html ไม่ได้ให้สร้าง .css ย้ำ !!! ไม่ให้ สร้างไฟล์ .css
+               ต้องเรียกใช้ CSS ใน Tag <head> ภายใต้ Tag <style> */
+
+        .athiti{ 
+            font-family: 'Athiti',sans-serif;
+        }
+        .shippori{
+            font-family: 'Shippori Mincho', serif;
+        }     
+        .ulheader {
+            font-size: 40px;
+            border-style: solid;
+            border-color: darksalmon;
+        }
         body{
             background-color: lightsteelblue;
             margin-left: 5%;
             margin-right: 5%;
             margin-top: 2.5%;
         }
-        .roboto{ 
-            font-family: 'Roboto',sans-serif;
-        }
-        .kanit{
-            font-family: 'Kanit', sans-serif;
-        }
-        .fw900{
-            font-weight: 900;
-        }
-        .ulheader {
-            font-size: 40px;
-            border-style: solid;
-            border-color: darksalmon;
-        }
-        /* .roboto สร้าง class */
+      
+      
         header{
             /* background-color: burlywood; */
             background-image: url();
@@ -59,21 +68,25 @@
             /* background-image: url('https://cdn.pixabay.com/photo/2021/02/08/22/30/wheat-5996781__340.jpg'); */
             height: 100%;
             padding-top: 20px; 
+            padding-left: 10px;
         }
         #profile{
             /* background-color: magenta; */
             height: 100%;
             padding-top: 20px; ;
+            padding-left: 10px;
         }
         #contact{
             /* background-color: lightpink; */
             height: 100%;
             padding-top: 20px; 
+            padding-left: 10px;
         }   
         #skill{
             /* background-color: greenyellow; */
             height: 100%;
             padding-top: 20px; 
+            padding-left: 10px;
         }  
         footer{
             clear: both;
@@ -97,11 +110,10 @@
             width: 150px;
             display: block;        
             border-radius: 12px;
-            box-shadow: 0 3px #999;
-        
+            box-shadow: 0 3px #999;        
         }
         .btn .button:not(:last-child) {
-            border-bottom: none; /* Prevent double borders */
+            border-bottom: none; 
         }
         .btn .button:hover {
         /* background-color: #3e8e41; */
@@ -112,11 +124,11 @@
 </head>
 <body>
     <!-- เรียกใช้ class roboto และ ulheader  --> 
-    <header class="roboto ulheader">
+    <header class="athiti ulheader">
         <h3>Kimzun</h3>
     </header>
     <!-- เรียกใช้ class roboto  และ fw900 -->
-    <nav class="kanit fw900">
+    <nav class="shippori">
         <div class="btn">
             <button class="button"><a href="#home">Home</a></button>
             <button class="button"><a href="#profile">Profile</a></button>
@@ -124,9 +136,9 @@
             <button class="button"><a href="#skill">Skill</a></button>
         </div>
     </nav>
-    <main class="kanit"> 
+    <main class="shippori"> 
         <div id="home">
-            <h2> <img src=" " alt=" ">Home</h2>
+            <h2>Home</h2>
             <p>กีวีมลภาวะคอร์ป โฮปกาญจนาภิเษกไบเบิลมลภาวะ เลคเชอร์ซีเรียส แดนซ์ ดีพาร์ตเมนต์วานิลาโฮสเตสล้มเหลวโต๋เต๋ โพลล์ แคมปัสไคลแม็กซ์ จิตพิสัยปาสคาลฮัลโลวีนเซลส์แมนฮิ โฟล์คคอร์ป รีสอร์ท ก๋ากั่นบึ้มคอนแท็คล็อบบี้ เกย์โปสเตอร์ชนะเลิศ พรีเซ็นเตอร์ก๋ากั่นไฟต์อีโรติกเบลอ เซอร์ไพรส์ปูอัดตังค์ถ่ายทำเคลื่อนย้าย พรีเมียมกัมมันตะภควัมบดี เป่ายิงฉุบออสซี่ซีอีโอแฟลชบ๊วย</p>
         </div>
         <div id="profile">
