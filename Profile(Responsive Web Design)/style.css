@@ -1,0 +1,110 @@
+        body{
+            background-color: tomato;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .roboto{ 
+            font-family: 'Roboto',sans-serif;
+        }
+        .kanit{
+            font-family: 'Kanit', sans-serif;
+        }
+        .fw900{
+            font-weight: 900;
+        }
+        .ulheader {
+            font-size: 40px;
+            border: 1px dashed blueviolet;
+        }
+        /* .roboto สร้าง class */
+        header{
+            background-color: burlywood;
+            padding: 10px;
+            text-align: center;
+            /* font-size: 35px; */
+            /* font-family: 'Roboto',sans-serif; */
+            /* font-size: 40px; */
+            /* font-weight: ; */
+        }
+        nav{
+            float: left;
+            background-color: lightgreen;
+            width: 25%;
+            height: 400px;
+            
+        }
+        nav ul{
+            /* list-style-type: none; */
+             /* padding-left: 5px ; */
+            list-style-image: url(../../resume/pic/HTML5_logo_small.png);
+            padding-top: 15px;
+        }
+        main{
+            float: left;
+            background-color: coral;
+            width: 75%;
+            height: 400px;
+            overflow: hidden;
+            scroll-behavior: smooth;
+            /* font-family: 'Kanit', sans-serif; */
+            line-height: 1.5em; 
+        }
+        #home{
+            background-color: lightskyblue;
+            height: 100%;
+            padding-top: 20px; 
+        }
+        #profile{
+            background-color: magenta;
+            height: 100%;
+            padding-top: 20px; ;
+        }
+        #contact{
+            background-color: lightpink;
+            height: 100%;
+            padding-top: 20px; 
+        }   
+        #skill{
+            background-color: greenyellow;
+            height: 100%;
+            padding-top: 20px; 
+        }   
+          /* input[type=text] ต้องติดกัน */
+        input[type=text]{
+                padding: 12px 24px;
+                background-image: url('../../resume/pic/HTML5_logo_small.png'); 
+                background-repeat: no-repeat;
+                background-position: 5px;
+                /* transition: width 0.4s ease-in-out; */
+        }
+        footer{
+            clear: both;
+            background-color: lightseagreen;
+            height: 70px;
+            font-size: 12px;
+            
+        }
+        footer p{
+            padding: 10px ;
+        }
+        a {
+            /* text-decoration: none; */
+
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                margin: 0;
+            }
+            nav{
+                width: 100%;
+                height: auto;
+            }
+            main{
+                width: 100%;
+            }
+        }
+            @media screen and (max-width: 768px) {
+            body {
+                margin: 0;
+            } 
+        }  
